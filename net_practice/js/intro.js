@@ -9,10 +9,10 @@ function save_login()
     {
 	var lvl = Math.round(6 + 4*Math.random());
 	localStorage.setItem("g_my_eval", JSON.stringify([lvl]));
-	window.location = "level"+lvl+".html";
+	window.location = "net_practice/level"+lvl+".html";
     }
     else
-	window.location = 'level1.html';
+	window.location = 'net_practice/level1.html';
 }
 
 
